@@ -1,0 +1,303 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Buttons",
+      "patterns": ["About Infoblox", "About us"],
+      "responses": [
+        "Infoblox was founded in 1999 and has since grown to become a leader in network identity and security solutions. Over the years, the company has expanded its portfolio to include advanced DNS, DHCP, IP address management, and cybersecurity offerings. Infoblox continues to innovate, providing essential services to organizations worldwide, ensuring secure and efficient network operations in today's digital landscape."
+      ]
+    },
+    {
+      "tag": "Buttons 1",
+      "patterns": ["About our product"],
+      "responses": [
+        "1.SaaS - BloxOne® DDI (Simplify networking with automated, cloud-managed DNS, DHCP and IPAM) 2. Data Center | Cloud -NIOS DDI (Unify DNS, DHCP and IPAM for complex, on-premise networking) 3. SaaS -BloxOne® Threat Defense (Quickly deploy hybrid DNS-layer security everywhere) 4. SaaS - Threat Intel (Leverage better DNS and multi-sourced threat intel to improve your total security stack) 5. Data Center | Cloud - Advanced DNS Protection (Protect enterprise DNS infrastructure to ensure maximum uptime) 6. Data Center | Cloud - Cybersecurity Ecosystem (Automate SecOps response and efficiency with advanced integration"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Benefits",
+      "patterns": [
+        "What are the benefits of automating DNS, DHCP, and IP address provisioning?",
+        "How does your service help with DNS, DHCP, and IP address management?",
+        "Can you explain the advantages of your DNS, DHCP, and IP address provisioning?"
+      ],
+      "responses": [
+        "Our service automates DNS, DHCP, and IP address provisioning across distributed locations from the cloud."
+      ]
+    },
+    {
+      "tag": "Key Benefits 2",
+      "patterns": [
+        "How can your solution improve visibility into network devices?",
+        "Does your service increase visibility of end users and devices?",
+        "Can your service provide better visibility into network activity?"
+      ],
+      "responses": [
+        "It increases visibility into end users and devices across the network, regardless of their location."
+      ]
+    },
+    {
+      "tag": "Key Benefits 3",
+      "patterns": [
+        "How quickly can I deploy DDI services with your solution?",
+        "Is it fast to deploy DDI services using your service?",
+        "Can your service quickly deploy DDI for new devices?"
+      ],
+      "responses": [
+        "You can quickly deploy DDI services to accommodate new devices and IP addresses."
+      ]
+    },
+    {
+      "tag": "Key Benefits 4",
+      "patterns": [
+        "Does your service provide local DNS resolution?",
+        "Can your solution offer direct connectivity to the Internet with local DNS?",
+        "Is local DNS resolution available with your service?"
+      ],
+      "responses": [
+        "Yes, our service provides direct connectivity to the Internet and cloud-based apps to all users with local DNS resolution."
+      ]
+    },
+    {
+      "tag": "Key Benefits 5",
+      "patterns": [
+        "How does your solution reduce latency for SaaS applications?",
+        "Can your service help with reducing latency?",
+        "Does your service connect locations to the nearest cloud entry point to reduce latency?"
+      ],
+      "responses": [
+        "It reduces latency by connecting distributed locations to the nearest point of entry in the cloud for SaaS applications."
+      ]
+    },
+    {
+      "tag": "Key Benefits 6",
+      "patterns": [
+        "Can your service automate network provisioning for DevOps?",
+        "How does your solution help DevOps move at cloud speed?",
+        "Does your service eliminate manual intervention for network provisioning?"
+      ],
+      "responses": [
+        "Our solution eliminates manual intervention and automates the provisioning of network services that DevOps need to move at cloud speed."
+      ]
+    },
+    {
+      "tag": "Key Benefits 7",
+      "patterns": [
+        "What benefits does your service offer for cloud experiences?",
+        "Can your service enhance cloud experiences?",
+        "How does your solution improve cloud experiences?"
+      ],
+      "responses": [
+        "Our service elevates cloud experiences in any location."
+      ]
+    },
+    {
+      "tag": "Key Benefits 8",
+      "patterns": [
+        "How reliable are the user experiences with your service?",
+        "Can your service ensure reliable user experiences?",
+        "Does your solution offer fast and reliable user experiences?"
+      ],
+      "responses": [
+        "It ensures fast, reliable user experiences."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 1",
+      "patterns": [
+        "What are the key capabilities of your service?",
+        "Can you list the main features of your solution?",
+        "What functionalities does your service offer?"
+      ],
+      "responses": [
+        "Our service offers core networking products like DNS, DHCP, and IPAM."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 2",
+      "patterns": [
+        "Can you tell me about Infoblox’s market leadership?",
+        "What makes Infoblox a leader in the market?",
+        "How does Infoblox stand out in the industry?"
+      ],
+      "responses": [
+        "Infoblox leads in market with DNS MTTRs, a strong customer base, and threat intelligence."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 3",
+      "patterns": [
+        "What products do you offer for networking?",
+        "Can you list your networking products?",
+        "What are your core network services?"
+      ],
+      "responses": [
+        "We offer products such as BloxOne® DDI for cloud-managed DNS, DHCP, and IPAM, and BloxOne® Threat Defense for hybrid DNS-layer security."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 4",
+      "patterns": [
+        "Do you have SaaS solutions?",
+        "Can you tell me about your SaaS offerings?",
+        "What SaaS solutions do you provide?"
+      ],
+      "responses": [
+        "Yes, we provide SaaS solutions for networking and security."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 5",
+      "patterns": [
+        "What security features does your service include?",
+        "Can you describe the security aspects of your solution?",
+        "How does your service ensure network security?"
+      ],
+      "responses": [
+        "Our service includes foundational security, advanced DNS protection, and a cybersecurity ecosystem with advanced integrations."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 6",
+      "patterns": [
+        "How does your service help with automation?",
+        "Can your solution automate network and security operations?",
+        "What automation features do you offer?"
+      ],
+      "responses": [
+        "We offer automation products that streamline networking and security operations."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 7",
+      "patterns": [
+        "What solutions do you offer for multi-cloud networking?",
+        "Can your service manage multi-cloud environments?",
+        "How does your solution support multi-cloud networking?"
+      ],
+      "responses": [
+        "Our service transforms hybrid, multi-cloud management of critical network services like DNS and IPAM."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 8",
+      "patterns": [
+        "How does your service support a hybrid workplace?",
+        "Can your solution help with hybrid work environments?",
+        "What features do you offer for a hybrid workforce?"
+      ],
+      "responses": [
+        "It supports hybrid workplaces by enabling a secure, multi-cloud organization."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 9",
+      "patterns": [
+        "What optimization technologies do you offer?",
+        "Can your service optimize network performance?",
+        "How does your solution improve network efficiency?"
+      ],
+      "responses": [
+        "We offer technologies to optimize Office 365 performance, secure IoT devices, deploy IPv6, and optimize SD-WAN."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 10",
+      "patterns": [
+        "Can your service support encrypted DNS?",
+        "Do you offer DoT/DoH services?",
+        "How does your solution handle encrypted DNS?"
+      ],
+      "responses": [
+        "Yes, we support encrypted DNS (DoT/DoH services) while maintaining security and performance."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 11",
+      "patterns": [
+        "What integrations does your service provide?",
+        "Can your solution integrate with other networking tools?",
+        "How does your service work with existing security stacks?"
+      ],
+      "responses": [
+        "Our service integrates with top networking providers and tools, and makes the entire security stack more effective with rich APIs and integrations."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 12",
+      "patterns": [
+        "What industry-specific solutions do you have?",
+        "Can your service cater to specific industries?",
+        "Do you offer solutions for sectors like healthcare and education?"
+      ],
+      "responses": [
+        "We provide solutions for healthcare, education, public sector, and service providers."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 13",
+      "patterns": [
+        "How does your service help different job functions like NetOps and DevOps?",
+        "Can your solution support roles like SecOps and CIO/CISO?",
+        "What job function solutions do you offer?"
+      ],
+      "responses": [
+        "For job functions like NetOps, DevOps, SecOps, and CIO/CISO, we offer unified DNS, DHCP, IPAM, and advanced integrations."
+      ]
+    },
+    {
+      "tag": "Key Capabilities 14",
+      "patterns": [
+        "What support and resources are available with your service?",
+        "Can you describe the support options you provide?",
+        "What resources do you offer for customer support?"
+      ],
+      "responses": [
+        "We provide customer support, technical account management, professional services, education services, and a range of resources like reports, case studies, and webinars."
+      ]
+    }
+  ]
+}
