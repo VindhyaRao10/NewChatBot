@@ -46,6 +46,11 @@
       ]
     },
     {
+      "tag": "Buttons 1",
+      "patterns": ["Get in touch with us", "Contact info"],
+      "responses": ["Contact us through the following email id : support@infoblox.com for any queries."]
+    },
+    {
       "tag": "funny",
       "patterns": [
         "Tell me a joke!",
